@@ -1,0 +1,17 @@
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+var capt = new Person('캡틴', 100);
+console.log(capt);
+
+class Person {
+    constructor(name, age) {
+        console.log('생성 되었습니다.');
+        this.name = name;
+        this.age = age;
+    }
+}
+
+var seho = new Person('세호', 33);
+console.log(seho);
